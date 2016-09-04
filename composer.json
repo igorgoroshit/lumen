@@ -13,10 +13,14 @@
         {
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/pipeline"            
-        },
+        },        
         {
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/sprockets"            
+        },
+        {
+                "type": "git",
+                "url": "https://github.com/igorgoroshit/neat"            
         }
     ],
 

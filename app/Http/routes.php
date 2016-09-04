@@ -4,13 +4,12 @@
 |--------------------------------------------------------------------------
 | Application Routes
 |--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It is a breeze. Simply tell Lumen the URIs it should respond to
-| and give it the Closure to call when that URI is requested.
-|
 */
 
-$app->get('/', function () use ($app) {
-    return $app->version();
+$app->group(['namespace' => 'App\Http\Site\Controllers'], function ($app) {
+    require __DIR__.'/Site/routes.php';
+});
+
+$app->group(['prefix' => 'admin', 'namespace' => 'App\Http\Admin\Controllers'], function ($app) {
+    require __DIR__.'/Admin/routes.php';
 });

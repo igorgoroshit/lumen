@@ -45,6 +45,10 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
-        return parent::render($request, $e);
+      //return parent::render($request, $e);
+      //fix for chrome
+      $response =  parent::render($request, $e);
+      $response->headers->set('Content-Length', strlen($response->getContent()));
+      return $response;
     }
 }

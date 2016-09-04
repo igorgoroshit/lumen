@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a80effa2798c7e57f5e7deba5ad58ada",
-    "content-hash": "dadfb0447d046321300d86786457d636",
+    "hash": "7c1cd5296491c8b3d005c4547a471041",
+    "content-hash": "7c15b0cd3edda2fc45d32c5275ba773f",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -256,14 +256,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/neat",
-                "reference": "56720aba6530d2595e92ec0d87b0fc646bd4bf77"
+                "reference": "63c408988733525f7ce013b359658f3974691a81"
             },
             "require": {
                 "laravel/lumen-framework": "~5.2",
                 "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "laravel/lumen": "~5.2"
             },
             "type": "library",
             "autoload": {
@@ -278,10 +275,6 @@
                 {
                     "name": "Anton Demushkin",
                     "email": "fremail@yandex.com"
-                },
-                {
-                    "name": "Igor Goroshit",
-                    "email": "igor@webt.co.il"
                 }
             ],
             "description": "Extends a lumen application for using nested route groups",
@@ -290,7 +283,7 @@
                 "lumen",
                 "route"
             ],
-            "time": "2016-09-04 20:58:26"
+            "time": "2016-09-04 22:27:32"
         },
         {
             "name": "igorgoroshit/pipeline",

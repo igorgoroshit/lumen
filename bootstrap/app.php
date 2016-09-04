@@ -14,7 +14,7 @@ try {
 |--------------------------------------------------------------------------
 */
 
-$app = new Laravel\Lumen\Application(
+$app = new Igorgoroshit\Neat\Application(
     realpath(__DIR__.'/../')
 );
 
@@ -67,8 +67,6 @@ $app->singleton(
 |--------------------------------------------------------------------------
 */
 
-$app->group(['namespace' => 'App\Http\Controllers'], function ($app) {
-    require __DIR__.'/../app/Http/routes.php';
-});
+require __DIR__.'/../app/Http/routes.php';
 
 return $app;
