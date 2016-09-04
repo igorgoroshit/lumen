@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aaa2f3f7bd8e16a914690d3d4ab70bfc",
-    "content-hash": "26e52443aa60f9d208b5411ef2250655",
+    "hash": "a80effa2798c7e57f5e7deba5ad58ada",
+    "content-hash": "dadfb0447d046321300d86786457d636",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -251,24 +251,24 @@
             "time": "2015-11-06 14:35:42"
         },
         {
-            "name": "fremail/lumen-nested-route-groups",
+            "name": "igorgoroshit/neat",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/igorgoroshit/lumen-nested-route-groups",
-                "reference": "ff0c7d20f9caf60269481edd992dd418f9f4d5d2"
+                "url": "https://github.com/igorgoroshit/neat",
+                "reference": "56720aba6530d2595e92ec0d87b0fc646bd4bf77"
             },
             "require": {
-                "laravel/lumen-framework": "~5.0",
+                "laravel/lumen-framework": "~5.2",
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "laravel/lumen": "~5.0"
+                "laravel/lumen": "~5.2"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Fremail\\NestedRouteGroups\\": "src"
+                    "Igorgoroshit\\Neat\\": "src"
                 }
             },
             "license": [
@@ -278,6 +278,10 @@
                 {
                     "name": "Anton Demushkin",
                     "email": "fremail@yandex.com"
+                },
+                {
+                    "name": "Igor Goroshit",
+                    "email": "igor@webt.co.il"
                 }
             ],
             "description": "Extends a lumen application for using nested route groups",
@@ -286,7 +290,7 @@
                 "lumen",
                 "route"
             ],
-            "time": "2016-07-09 22:12:03"
+            "time": "2016-09-04 20:58:26"
         },
         {
             "name": "igorgoroshit/pipeline",
@@ -294,11 +298,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/pipeline",
-                "reference": "baf29a9db5447c75cf2438bfb1629d43fd57dacc"
+                "reference": "ff1cccd26d4a8eb685a43571f6c07520d8958689"
             },
             "require": {
                 "ext-fileinfo": "*",
-                "igorgoroshit/sprockets": "*",
+                "igorgoroshit/sprockets": "dev-master",
                 "illuminate/support": "~4.0|~5.0",
                 "kriswallsmith/assetic": "v1.1.2",
                 "php": ">=5.3.0"
@@ -329,7 +333,7 @@
                 }
             ],
             "description": "A very simple and easy to use asset pipeline for laravel 4.",
-            "time": "2016-08-07 15:31:22"
+            "time": "2016-09-04 21:00:45"
         },
         {
             "name": "igorgoroshit/sprockets",
@@ -337,7 +341,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/sprockets",
-                "reference": "9e67aea22a026c8a15eb751d4a90255bbda2c6eb"
+                "reference": "257ea9ab0807ee4a9679143d63fb77861bf726e8"
             },
             "require": {
                 "axy/sourcemap": "*",
@@ -366,7 +370,7 @@
                     "email": "igor@webt.co.il"
                 }
             ],
-            "time": "2016-07-18 16:26:35"
+            "time": "2016-09-04 20:39:46"
         },
         {
             "name": "illuminate/auth",
@@ -3843,9 +3847,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "fremail/lumen-nested-route-groups": 20,
         "igorgoroshit/pipeline": 20,
-        "igorgoroshit/sprockets": 20
+        "igorgoroshit/sprockets": 20,
+        "igorgoroshit/neat": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
