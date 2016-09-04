@@ -8,24 +8,24 @@
     "repositories": [
         {
                 "type": "git",
-                "url": "https://github.com/igorgoroshit/pipeline"
+                "url": "https://github.com/igorgoroshit/neat"            
         },
         {
                 "type": "git",
-                "url": "https://github.com/igorgoroshit/sprockets"
+                "url": "https://github.com/igorgoroshit/pipeline"            
         },
         {
                 "type": "git",
-                "url": "https://github.com/igorgoroshit/lumen-nested-route-groups"            
+                "url": "https://github.com/igorgoroshit/sprockets"            
         }
     ],
 
     "require": {
         "php": ">=5.5.9",
         "laravel/lumen-framework": "5.2.*",
-        "fremail/lumen-nested-route-groups": "dev-master",
         "igorgoroshit/pipeline": "dev-master",
         "igorgoroshit/sprockets": "dev-master",
+        "igorgoroshit/neat": "dev-master",
         "vlucas/phpdotenv": "~2.2"
     },
 
@@ -46,6 +46,11 @@
             "tests/",
             "database/"
         ]
+    },
+
+    "config": {
+        "preferred-install": "dist",
+        "secure-http": false
     },
 
     "scripts": {
