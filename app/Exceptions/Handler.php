@@ -16,11 +16,11 @@ class Handler extends ExceptionHandler
      *
      * @var array
      */
-    protected $dontReport = [
-        AuthorizationException::class,
-        HttpException::class,
-        ModelNotFoundException::class,
-        ValidationException::class,
+  protected $dontReport = [
+  AuthorizationException::class,
+  HttpException::class,
+  ModelNotFoundException::class,
+  ValidationException::class,
     ];
 
     /**
@@ -31,10 +31,10 @@ class Handler extends ExceptionHandler
      * @param  \Exception  $e
      * @return void
      */
-    public function report(Exception $e)
-    {
-        parent::report($e);
-    }
+  public function report(Exception $e)
+  {
+    parent::report($e);
+  }
 
     /**
      * Render an exception into an HTTP response.
@@ -43,12 +43,12 @@ class Handler extends ExceptionHandler
      * @param  \Exception  $e
      * @return \Illuminate\Http\Response
      */
-    public function render($request, Exception $e)
-    {
+  public function render($request, Exception $e)
+  {
       //return parent::render($request, $e);
       //fix for chrome
-      $response =  parent::render($request, $e);
-      $response->headers->set('Content-Length', strlen($response->getContent()));
-      return $response;
-    }
+    $response =  parent::render($request, $e);
+    $response->headers->set('Content-Length', strlen($response->getContent()));
+    return $response;
+  }
 }
