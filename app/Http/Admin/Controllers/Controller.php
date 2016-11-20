@@ -4,6 +4,11 @@ class Controller extends \App\Http\Base\Controllers\Controller
 {
   public function index()
   {
-    return "Web Tech - Admin Index";
+    return view('admin.index');
+  }
+
+  public function options()
+  {
+    return $this->success([]);
   }
 }

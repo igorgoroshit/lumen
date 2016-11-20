@@ -96,7 +96,7 @@
                 "name": "bower-asset/ember-date"
             }
         ]
-    }
+    },
 
     "scripts": {
         "post-root-package-install": [

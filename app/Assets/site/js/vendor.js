@@ -1,0 +1,10 @@
+//= require /vendor/loader.js/lib/loader/loader.js
+//= require config/ember.js
+//= require /vendor/jquery/dist/jquery.js
+//= require /vendor/parsleyjs/dist/parsley.js
+//= require /vendor/parsleyjs/src/i18n/he.js
+//= require /vendor/parsleyjs/src/i18n/he.extra.js
+//= require /vendor/ember/ember-template-compiler.js
+//= require /vendor/ember/ember.debug.js
+//= require_tree /vendor/ember-auth-component/amd/addon
+//= require /vendor/ember-cli-shims/app-shims.js

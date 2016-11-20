@@ -1,0 +1,1 @@
+App.OptionsService = Ember.Service.extend({});

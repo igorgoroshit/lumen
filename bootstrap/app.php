@@ -43,6 +43,10 @@ $app->singleton(
 |--------------------------------------------------------------------------
 */
 
+$app->middleware([
+  \Igorgoroshit\Neat\Http\ContentLengthMiddleware::class
+]);
+
 // $app->middleware([
 //    App\Http\Middleware\ExampleMiddleware::class
 // ]);
@@ -56,6 +60,7 @@ $app->singleton(
 | Service Providers
 |--------------------------------------------------------------------------
 */
+$app->register(Igorgoroshit\Pipeline\Lumen\AssetPipelineServiceProvider::class);
 
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
