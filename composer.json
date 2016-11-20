@@ -10,17 +10,20 @@
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/neat"            
         },
+
         {
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/pipeline"            
-        },        
+        },    
+
         {
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/sprockets"            
         },
+
         {
-                "type": "git",
-                "url": "https://github.com/igorgoroshit/neat"            
+                "type": "vcs",
+                "url": "git@github.com:igorgoroshit/neat.git"            
         }
     ],
 
@@ -29,7 +32,7 @@
         "laravel/lumen-framework": "5.2.*",
         "igorgoroshit/pipeline": "dev-master",
         "igorgoroshit/sprockets": "dev-master",
-        "igorgoroshit/neat": "dev-master",
+        "igorgoroshit/neat": "5.2.*",
         "vlucas/phpdotenv": "~2.2"
     },
 
