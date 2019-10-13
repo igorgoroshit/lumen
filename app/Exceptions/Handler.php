@@ -43,8 +43,18 @@ class Handler extends ExceptionHandler
      * @param  \Exception  $exception
      * @return \Illuminate\Http\Response|\Illuminate\Http\JsonResponse
      */
-    public function render($request, Exception $exception)
+    // public function render($request, Exception $exception)
+    // {
+    //     return parent::render($request, $exception);
+    // }
+
+    public function render($request, Exception $e)
     {
-        return parent::render($request, $exception);
+        //return parent::render($request, $e);
+        //fix for chrome
+      $response =  parent::render($request, $e);
+      $response->headers->set('Content-Length', strlen($response->getContent()));
+      return $response;
     }
+
 }

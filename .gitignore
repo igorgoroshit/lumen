@@ -3,3 +3,6 @@
 Homestead.json
 Homestead.yaml
 .env
+.DS_Store
+/app/Assets/vendor
+composer.lock

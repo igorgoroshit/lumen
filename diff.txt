@@ -1,0 +1,41 @@
+OK git diff v5.2.1 5.2.3.0 app/Jobs/ExampleJob.php
+OK git diff v5.2.1 5.2.3.0 app/Jobs/Job.php
+OK git diff v5.2.1 5.2.3.0 app/Listeners/ExampleListener.php
+OK git diff v5.2.1 5.2.3.0 app/Providers/AppServiceProvider.php
+OK git diff v5.2.1 5.2.3.0 app/Providers/AuthServiceProvider.php
+OK git diff v5.2.1 5.2.3.0 app/Providers/EventServiceProvider.php
+OK git diff v5.2.1 5.2.3.0 artisan
+OK git diff v5.2.1 5.2.3.0 database/factories/ModelFactory.php
+OK git diff v5.2.1 5.2.3.0 database/seeds/DatabaseSeeder.php
+OK git diff v5.2.1 5.2.3.0 storage/app/.gitignore
+OK git diff v5.2.1 5.2.3.0 storage/framework/views/.gitignore
+OK git diff v5.2.1 5.2.3.0 storage/logs/.gitignore
+OK git diff v5.2.1 5.2.3.0 tests/ExampleTest.php
+
+? git diff v5.2.1 5.2.3.0 .gitignore
+? git diff v5.2.1 5.2.3.0 app/Exceptions/Handler.php
+? git diff v5.2.1 5.2.3.0 bootstrap/app.php
+? git diff v5.2.1 5.2.3.0 composer.json
+? git diff v5.2.1 5.2.3.0 packages.json
+? git diff v5.2.1 5.2.3.0 public/.htaccess
+? git diff v5.2.1 5.2.3.0 public/index.php
+
+- git diff v5.2.1 5.2.3.0 app/Http/Controllers/ExampleController.php
+- git diff v5.2.1 5.2.3.0 app/Http/Middleware/Authenticate.php
+- git diff v5.2.1 5.2.3.0 app/Http/Middleware/ExampleMiddleware.php
+- git diff v5.2.1 5.2.3.0 app/User.php
+- git diff v5.2.1 5.2.3.0 phpunit.xml
+- git diff v5.2.1 5.2.3.0 readme.md
+
++ git diff v5.2.1 5.2.3.0 app/Http/Admin/Controllers/Controller.php
++ git diff v5.2.1 5.2.3.0 app/Http/Admin/routes.php
++ git diff v5.2.1 5.2.3.0 app/Http/Base/Controllers/Controller.php
++ git diff v5.2.1 5.2.3.0 app/Http/Controllers/Controller.php
++ git diff v5.2.1 5.2.3.0 app/Http/Site/Controllers/Controller.php
++ git diff v5.2.1 5.2.3.0 app/Http/Site/routes.php
++ git diff v5.2.1 5.2.3.0 app/Http/routes.php
++ git diff v5.2.1 5.2.3.0 app/Models/User.php
++ git diff v5.2.1 5.2.3.0 phpcs.xml
++ git diff v5.2.1 5.2.3.0 resources/views/admin/index.php
++ git diff v5.2.1 5.2.3.0 resources/views/site/index.php
++ git diff v5.2.1 5.2.3.0 storage/framework/cache/.gitignore
