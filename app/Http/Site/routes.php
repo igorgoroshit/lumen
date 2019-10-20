@@ -1,4 +1,4 @@
 <?php
 
-$app->get('/',        'Controller@index');
-$app->get('options',  'Controller@options');
+$router->get('/',        'Controller@index');
+$router->get('options',  'Controller@options');

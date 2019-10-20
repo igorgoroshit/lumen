@@ -7,4 +7,4 @@
 //= require /vendor/ember/ember-template-compiler.js
 //= require /vendor/ember/ember.debug.js
 //= require_tree /vendor/ember-auth-component/amd/addon
-//= require /vendor/ember-cli-shims/app-shims.js
+//= require /vendor/ember-cli-shims/vendor/ember-cli-shims/app-shims.js

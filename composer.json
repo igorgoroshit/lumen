@@ -25,20 +25,25 @@
         {
                 "type": "git",
                 "url": "https://github.com/igorgoroshit/neat"            
+        },
+        {
+                "type": "git",
+                "url": "https://github.com/igorgoroshit/assetic"            
         }
     ],
 
     "require": {
         "php": "^7.2",
         "laravel/lumen-framework": "6.0.*",
-        "igorgoroshit/pipeline": "dev-master",
-        "igorgoroshit/sprockets": "dev-master",
-        "igorgoroshit/neat": "6.0.*",
-        "vlucas/phpdotenv": "~2.2",
+        "igorgoroshit/pipeline": "6.0.0",
+        "igorgoroshit/sprockets": "6.0.0",
+        "igorgoroshit/neat": "6.0.0",
+        "kriswallsmith/assetic": "6.0.0",
+        
 
         "bower-asset/ember": "1.13.11",
         "npm-asset/loader.js": "4.0.1",
-        "bower-asset/ember-cli-shims": "dev-master",
+        "bower-asset/ember-cli-shims": "dev-master#241ed3297e2236d1ce8edb1dedce9a3c7ebcd55a",
         "bower-asset/ember-auth-component": "dev-master",
         "bower-asset/ember-date": "dev-master",
 
