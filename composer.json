@@ -8,27 +8,28 @@
 
     "repositories": [
         {
-                "type": "git",
-                "url": "https://github.com/igorgoroshit/lumen"            
+            "type": "git",
+            "url": "https://github.com/igorgoroshit/lumen"            
         },
 
         {
-                "type": "git",
-                "url": "https://github.com/igorgoroshit/pipeline"            
+            "type": "git",
+            "url": "https://github.com/igorgoroshit/pipeline"            
         },    
 
         {
-                "type": "git",
-                "url": "https://github.com/igorgoroshit/sprockets"            
+            "type": "git",
+            "url": "https://github.com/igorgoroshit/sprockets"            
         },
 
         {
-                "type": "git",
-                "url": "https://github.com/igorgoroshit/neat"            
+            "type": "git",
+            "url": "https://github.com/igorgoroshit/neat"            
         },
+
         {
-                "type": "git",
-                "url": "https://github.com/igorgoroshit/assetic"            
+            "type": "git",
+            "url": "https://github.com/igorgoroshit/assetic"            
         }
     ],
 
@@ -37,8 +38,8 @@
         "laravel/lumen-framework": "6.0.*",
         "igorgoroshit/pipeline": "6.0.0",
         "igorgoroshit/sprockets": "6.0.0",
-        "igorgoroshit/neat": "6.0.0",
         "kriswallsmith/assetic": "6.0.0",
+        "igorgoroshit/neat": "6.0.0",
         
 
         "bower-asset/ember": "1.13.11",
@@ -78,32 +79,34 @@
 
     "config": {
         "preferred-install": "dist",
-        "secure-http": false
-    },
-
-    "extra": {
-        "asset-installer-paths": {
-          "npm-asset-library":      "app/Assets/vendor",
-          "bower-asset-library":    "app/Assets/vendor"
-        },
-
-        "asset-repositories": [
-            {
-                "type": "bower-vcs",
-                "url": "https://github.com/igorgoroshit/ember.git",
-                "name": "bower-asset/ember"
+        "secure-http": false,
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "fxp-asset": {
+                
+            "installer-paths": {
+              "npm-asset-library":      "app/Assets/vendor",
+              "bower-asset-library":    "app/Assets/vendor"
             },
-            {
-                "type": "bower-vcs",
-                "url": "https://github.com/igorgoroshit/ember-auth-component.git",
-                "name": "bower-asset/ember-auth-component"
-            },
-            {
-                "type": "bower-vcs",
-                "url": "https://github.com/igorgoroshit/ember-date.git",
-                "name": "bower-asset/ember-date"
-            }
-        ]
+
+            "repositories": [
+                {
+                    "type": "bower-vcs",
+                    "url": "https://github.com/igorgoroshit/ember.git",
+                    "name": "bower-asset/ember"
+                },
+                {
+                    "type": "bower-vcs",
+                    "url": "https://github.com/igorgoroshit/ember-auth-component.git",
+                    "name": "bower-asset/ember-auth-component"
+                },
+                {
+                    "type": "bower-vcs",
+                    "url": "https://github.com/igorgoroshit/ember-date.git",
+                    "name": "bower-asset/ember-date"
+                }
+            ]
+        }
     },
 
     "scripts": {
@@ -111,11 +114,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
     },
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "optimize-autoloader": true
-    },
+
     "minimum-stability": "dev",
     "prefer-stable": true
 }
